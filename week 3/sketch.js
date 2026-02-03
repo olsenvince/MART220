@@ -24,6 +24,10 @@ function draw() {
   line(250,50,101,225);
   line(250,50,285,90);
   line(285,90,370,0);
+
+  //text
+  text('Vince Olsen',320,380)
+  text('Mountain Lake',10,18)
   
 }
 
