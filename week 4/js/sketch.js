@@ -1,14 +1,14 @@
 //character and environment assets from https://www.gameart2d.com/free-platformer-game-tileset.html
 
-let sheetImg;
-let landscape;
+var sheetImg;
+var landscape;
 
 function preload(){
     landscape = loadImg(landscape.png)
-    sheetImg = loadImg("tilesetImages/1.png")
+    //sheetImg = loadImg("tilesetImages/1.png")
 }
 function setup(){
-    createCanvas(windowWidth, windowHeight, "pixelated x4");
+    createCanvas(windowWidth, windowHeight,);
     //world.gravity.y = 10;
     background(landscape);
 }
