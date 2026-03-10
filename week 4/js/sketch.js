@@ -10,11 +10,9 @@ function preload(){
 function setup(){
     createCanvas(windowWidth, windowHeight,);
     //world.gravity.y = 10;
-    background(landscape);
 }
 
-
 function draw(){
-    
+    background(landscape);
 }
 
